@@ -1,0 +1,56 @@
+:root {
+    --dark-color: #19283f;
+    --green-color: #33d1cc;
+    --red-color: #ff3150;
+    --yellow-color: #ffc400;
+    --section-color: #eff7fa;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+    background-color: var(--section-color);
+}
+.input-group {
+    left: 10px;
+    top: 0px;
+}
+li {
+    width: 30%;
+    list-style: none;
+    margin: auto;
+}
+.carousel-inner {
+    position: relative;
+    cursor: pointer;
+}
+.carousel-item img {
+    width: 192px !important;
+    height: 190px !important;
+    border-radius: 5%;
+}
+ul li h2 {
+    width: 250px;
+    margin: auto;
+    border-radius: 10px;
+}
+.cart-6-4 {
+    margin-left: -40px;
+    /* color: black; */
+    cursor: pointer;
+}
+ul li svg {
+    transition: 1s;
+}
+ul li:hover svg {
+    font-size: 1.5rem;
+}
+.price-6-4 {
+    margin-right: -40px;
+}
+.li-60000
+#div {
+    background-color: #eff7fa;
+}
+#div h3 {
+    position: relative;
+}

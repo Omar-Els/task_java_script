@@ -11,15 +11,17 @@ var div2 = document.querySelector(".div2")
 var btn1 = document.querySelector("#btnprice")
 
 var totalprice = 0
-
+let body = document.querySelector('body')
 all_light_dark.forEach(function (light_dark) {
     dark.onclick = function (){
         container_fluid.style.color="white";
         container_fluid.style.background="black";
+        body.style.transition = '0.05s'
     }
     light.onclick = function (){
         container_fluid.style.color="black";
         container_fluid.style.background="white";
+        body.style.transition = '0.05s'
     }
 });
 
